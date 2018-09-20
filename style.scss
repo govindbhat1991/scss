@@ -1,0 +1,29 @@
+/*
+    Main style file
+*/
+// Webfonts
+@import 'webfonts';
+
+// Include Other Scss Files Here
+
+// Vendor: plugins
+@import 'normalize';
+
+// Vendor: Functions
+@import 'rem';
+
+// Init
+@import 'vars';
+@import 'easings';
+
+// Utility: functions
+@import 'breakpoints';
+@import 'grid';
+@import 'utils';
+@import 'intrinsic';
+
+// Base global styles
+@import 'typography';
+@import 'base';
+@import 'mediaquery';
+// Basic global styles

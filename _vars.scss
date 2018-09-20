@@ -1,0 +1,103 @@
+/*
+* PATHs
+*/
+
+$img: '../images/';
+
+
+
+/*
+* COLORS
+*/
+
+$black: #231f20;
+$white: #fff;
+$base: $black;
+$red: #ff0000;
+
+$teal: rgb(111, 171, 158);
+$eunry: rgb(204, 166, 154);
+$pink: rgb(248, 181, 184);
+$yellow: rgb(252, 227, 115);
+$purple: rgb(163, 133, 189);
+$jaffa: rgb(243, 116, 73);
+$orange: rgb(249, 160, 78);
+$green: rgb(154, 209, 139);
+
+
+$transition: all .3s ease-in-out;
+
+
+
+/*
+* Gutter
+*/
+
+$gutter: 30px;
+
+
+
+/*
+* Grid Constants
+*/
+
+$containers: (
+  sm: 720px,
+  md: 960px,
+  lg: 1170px
+);
+
+$enable-container: true;
+
+//total number of grid columns
+$grid-columns: 12;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+$gap: 1rem;
+$gaps: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$gaps: map-merge( ( 0: 0,
+1: ($gap * .25),
+2: ($gap * .5),
+3: $gap,
+4: ($gap * 1.5),
+5: ($gap * 2),
+6: ($gap * 3)),
+$gaps);
+
+$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$family: $sans-serif;
+
+// stylelint-enable value-keyword-case
+$size: 1rem; // Assumes the browser default, typically `16px`
+
+$weights: ();
+$weights: map-merge((
+lighter: 300,
+normal: 400,
+bold: 700,
+bolder: 900),
+$weights);
+
+$weight: map-get($weights, normal);
+
+$line: 1.125;
+$spacing: 0;
+
+$h1-size: $size * 3;
+$h2-size: $size * 2;
+$h3-size: $size * 1.75;
+$h4-size: $size * 1.5;
+$h5-size: $size * 1.25;
+$h6-size: $size;
+
+$heading1-size : $size * 5;
+$heading2-size : $size * 4.5;
+$heading3-size : $size * 4;
+$heading4-size : $size * 3.5;
